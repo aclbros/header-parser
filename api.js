@@ -6,7 +6,7 @@ var router = express.Router();
 router.get('/', function (req, res){
     res.send({
         ipaddress: req.headers['x-forwarded-for'],
-        language: req.get('Accept-Language'),
+        language: req.get('Accept-Language').match(/^(.+?),/)[0].slice(0, -1),
         software: req.get('user-agent').match(/\(.+\)/)[0].slice(1, -1)
     });
 });
