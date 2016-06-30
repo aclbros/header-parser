@@ -1,0 +1,29 @@
+{
+  "name": "header-parser-api",
+  "version": "1.0.1",
+  "description": "Timestamp Microservice API.",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aclbros/api-projects.git"
+  },
+  "homepage": "https://www.freecodecamp.com/challenges/timestamp-microservice",
+  "bugs": {
+    "url": "https://www.freecodecamp.com/challenges/timestamp-microservice"
+  },
+  "keywords": [
+    "full stack",
+    "Express",
+    "Node",
+    "javascript"
+  ],
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Antonio Carretero",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.12.4"
+  },
+  "devDependencies": {}
+}
